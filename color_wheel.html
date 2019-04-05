@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="colorchooser.js"></script>
+
+
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+    body
+
+    {
+        background-color:black ;
+        color:purple;
+        font-family:fantasy;
+
+    }
+    h1 {
+        background-color: black;
+        color:yellow;
+        font-size: 32px;
+        font-family:fantasy;
+        margin-left: 450px;
+      }
+    .center{
+      margin-top:550px;
+      margin-left: 300px;
+    }
+
+    </style></div></div>
+
+  </head>
+  <body>
+    <h1> Welcome to the color picker</h1>
+    <div id="swatch" style="float: left; width: 1287px; height: 530px; background-color: rgb(0, 0, 0);">
+        <div style="float:left; width:1287;">
+          <div id="swatch" style="width:900; height:500; background:red">
+          </div>
+          <br>
+          <center class="center">
+          <p id="rgboutput">rgb(255,0,0)</p>
+         <div id="container">
+        </div>
+        Red:
+        <input type="text" id="red" value="127" size="5">
+        <input type="range" id="redslider" value="127" min="0" max="255">
+        green:
+            <input type="text" id="green" value="15" size="5">
+        <input type="range" id="greenslider" value="15" min="0" max="255">
+        blue:
+            <input type="text" id="blue" value="99" size="5">
+        <input type="range" id="blueslider" value="99" min="0" max="255">
+
+        <br>
+        Hue:
+        <input type="range" id="hueslider" value="0" min="0" max="360">
+        Sat:
+        <input type="range" id="satslider" value="100" min="0" max="100">
+        Light:
+        <input type="range" id="lightslider" value="50" min="0" max="100">
+      </center>
+
+
+
+
+
+  </body>
+</html>
